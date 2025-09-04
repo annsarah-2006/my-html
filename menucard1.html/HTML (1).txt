@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste Haven - Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="logo">Taste Haven</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Taste Haven</h1>
+        <p>Serving delicious flavors with love since 1998</p>
+        <a href="#menu" class="btn">View Menu</a>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-card">
+                <h3>Margherita Pizza</h3>
+                <p>Classic cheese & tomato pizza baked to perfection.</p>
+                <span>₹299</span>
+            </div>
+            <div class="menu-card">
+                <h3>Pasta Alfredo</h3>
+                <p>Creamy Alfredo pasta with fresh herbs.</p>
+                <span>₹249</span>
+            </div>
+            <div class="menu-card">
+                <h3>Chocolate Brownie</h3>
+                <p>Rich & gooey brownie served with ice cream.</p>
+                <span>₹149</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>
+            At Taste Haven, we believe in bringing people together over delicious food.
+            With fresh ingredients and a warm atmosphere, every meal is made with love.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>📍 123 Food Street, Hyderabad</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉️ info@tastehaven.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Taste Haven. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
